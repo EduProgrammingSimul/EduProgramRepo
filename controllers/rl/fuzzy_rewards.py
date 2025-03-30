@@ -63,7 +63,7 @@ class FuzzyRewardSystem:
 
         # Create control system
         self.control_system = ctrl.ControlSystem([rule_s1, rule_st1, rule_g1, rule_ex1, rule_tr1]) # Add all rules
-        self.simulation = ctrl.ControlSystemSimulation(self.control_system, clip_consequents=True)
+        self.simulation = ctrl.ControlSystemSimulation(self.control_system)
 
         print("Fuzzy Reward System Initialized (RULES NEED THOROUGH REVIEW AND TUNING!).")
 
