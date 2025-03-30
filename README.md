@@ -1,5 +1,4 @@
 
-Adaptive Governor Control for Nuclear Power Plants using Reinforcement Learning with Fuzzy Rewards
 
 This project simulates an adaptive governor control system for Pressurized Water Reactor (PWR) nuclear power plants, leveraging Reinforcement Learning (RL) with Fuzzy Logic-based rewards. The goal is to enhance the plant's load-following capabilities and contribute to grid stability, particularly in the context of increasing variable renewable energy sources.
 
