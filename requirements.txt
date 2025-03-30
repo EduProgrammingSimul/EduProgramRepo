@@ -1,0 +1,26 @@
+# requirements.txt
+
+# Core numerical and scientific libraries
+numpy>=1.21
+scipy>=1.8
+
+# Plotting library
+matplotlib>=3.5
+seaborn>=0.11 # Optional, but used for nicer comparison plots if re-added
+
+# Reinforcement Learning Environment Standard
+gymnasium>=0.28 # Use the maintained fork of Gym
+
+# Reinforcement Learning Algorithm Library
+stable-baselines3[extra]>=2.0.0 # Includes PyTorch, Gym/Gymnasium support, etc.
+
+# Optional but recommended: Specify PyTorch version if needed for compatibility
+# If SB3 doesn't install a compatible version automatically, install manually first
+# See https://pytorch.org/ for specific install commands (CPU or CUDA)
+# torch>=2.0
+
+# Fuzzy Logic library
+scikit-fuzzy>=0.4.2
+
+# Data Handling (for results)
+pandas>=1.4
